@@ -13,7 +13,7 @@ name = "gateway_core"
 path = "src/lib.rs"
 
 [dependencies]
-streams = { git = "https://github.com/iotaledger/streams", branch = "main" }
+streams = { git = "https://github.com/iotaledger/streams", branch = "develop" }
 anyhow = {version = "1.0", default-features = false}
 tokio = {version = "1.5", features = ["rt-multi-thread", "macros"]}
 hex = {version = "0.4", default-features = false}
