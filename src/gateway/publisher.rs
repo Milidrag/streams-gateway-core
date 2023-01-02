@@ -7,7 +7,7 @@ use crate::{
 };
 
 use anyhow::Result;
-use iota_streams::{
+use streams::{
     app::transport::{
         TransportOptions,
         tangle::{
