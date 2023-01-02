@@ -13,7 +13,7 @@ name = "gateway_core"
 path = "src/lib.rs"
 
 [dependencies]
-streams = { git = "https://github.com/iotaledger/streams", branch = "develop" }
+streams = { git = "https://github.com/gallegogt/streams/tree/fix-chrysalis-2/error-with-iota-rs", branch = "chrysalis-2" }
 anyhow = {version = "1.0", default-features = false}
 tokio = {version = "1.5", features = ["rt-multi-thread", "macros"]}
 hex = {version = "0.4", default-features = false}
